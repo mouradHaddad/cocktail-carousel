@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('bar.jpg');
+    background-size: contain;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+.container h1{
+    font-size: 3rem;
+    color: rgb(206, 215, 215);
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.carousel-party{
+    background-color: #f0f8ff75;
+    color: rgb(229, 238, 238);
+    width: 60rem;
+    border: 2px solid #f0f8ff;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+.carousel-party img{
+    border-radius: 1.2rem;
+}
