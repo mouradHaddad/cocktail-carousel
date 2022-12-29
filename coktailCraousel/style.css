@@ -36,3 +36,29 @@ body{
 .carousel-party img{
     border-radius: 1.2rem;
 }
+@media screen and (max-width: 600px) {
+ 
+    .carousel-party{
+        max-width: 40rem;
+        border: 2px solid #f0f8ff;
+        border-radius: .7rem;
+        text-align: center;
+    }
+    .carousel-party img{
+        border-radius: 1.2rem;
+        width: 30rem;
+
+    }   
+}
+@media screen and (max-width: 400px) {
+    .carousel-party{
+        max-width: 25rem;
+        
+    }
+    .carousel-party img{
+        border-radius: 1.2rem;
+        width: 20rem;
+        height: 15rem;
+
+    }   
+}
